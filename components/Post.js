@@ -15,7 +15,7 @@ export default function Post(props) {
 		<>
 			<br />
 			<br />
-			<strong>User ID:</strong> {props.post?.userId}
+			<strong>User ID:</strong> {props.post?.userId} {/* If post is not null then display the data */}
 			<br />
 			<strong>Title:</strong> {props.post?.title}
 			<br />

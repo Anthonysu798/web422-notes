@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState } from "react"; 
 
 export default function ClickCounter() {
 	// Only numClicks is set to 0, setNumClicks is a function
